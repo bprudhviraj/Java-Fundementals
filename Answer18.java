@@ -1,0 +1,1 @@
+import java.util.*;class Answer18{public static void main(String args[]){Scanner in = new Scanner(System.in);String s = in.nextLine();double avg=0,heroine=0;for(int i=0;i<s.length();i++){char ch=s.charAt(i);avg+=ch;heroine=avg/s.length();}System.out.printf("%.1f",heroine);}}
